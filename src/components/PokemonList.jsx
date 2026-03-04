@@ -16,7 +16,7 @@ function PokemonList({ pokemons }) {
         ))}
       </div>
 
-      {/* Modal único */}
+      
       {selectedPokemon && (
         <div
           className="modal-overlay"
